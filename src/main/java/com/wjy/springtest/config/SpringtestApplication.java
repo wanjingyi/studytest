@@ -1,6 +1,7 @@
 package com.wjy.springtest.config;
 
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -10,6 +11,7 @@ import org.springframework.core.env.Environment;
 
 @SpringBootApplication
 @ComponentScan("com.wjy")
+@MapperScan("com.wjy.springtest.mapper")
 public class SpringtestApplication {
 
 	private static final Logger LOG = LoggerFactory.getLogger(SpringtestApplication.class);
