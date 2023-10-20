@@ -1,0 +1,15 @@
+2023-10-20 15:25:01.937 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wjy.springtest.service.EbookService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wjy.springtest.service.EbookService' in your configuration.
+
