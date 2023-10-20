@@ -10,3 +10,8 @@ GET http://localhost:8081/demo/list1
 Accept: application/json
 
 ###
+
+GET http://localhost:8081/ebook/list
+Accept: application/json
+
+###
