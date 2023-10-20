@@ -1,6 +1,7 @@
 package com.wjy.springtest.controller;
 
 import com.wjy.springtest.domain.Ebook;
+import com.wjy.springtest.resp.CommonResp;
 import com.wjy.springtest.service.EbookService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,7 +25,10 @@ public class EbookController {
     private EbookService ebookService;
 
     @GetMapping("/list")
-    public List<Ebook> ebookList() {
-        return ebookService.ebookList();
+    public CommonResp list() {
+        CommonResp<List<Ebook>> resp = new CommonResp<>();
+        List<Ebook> ebookList = ebookService.ebookList();
+        resp.setContent(ebookList);
+        return resp;
     }
 }
