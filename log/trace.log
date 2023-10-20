@@ -2401,3 +2401,804 @@ Consider defining a bean of type 'com.wjy.springtest.service.EbookService' in yo
 2023-10-20 15:51:02.108 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
 2023-10-20 15:51:02.109 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
 2023-10-20 15:51:02.109 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 15:51:14.645 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.2.5.Final
+2023-10-20 15:51:14.659 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 15:51:14.659 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 15:51:14.685 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-20 15:51:14.685 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-20 15:51:15.005 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 15:51:15.006 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 15:51:15.017 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-10-20 15:51:15.361 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 15:51:15.366 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:51:15.367 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 15:51:15.368 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 15:51:15.609 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 15:51:15.610 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 925 ms
+2023-10-20 15:51:16.163 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-20 15:51:16.173 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:51:16.186 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-20 15:51:16.192 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 1.76 seconds (JVM running for 2.344)
+2023-10-20 15:51:16.194 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-20 15:51:16.194 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 15:51:28.063 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-20 15:51:28.063 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-20 15:51:28.064 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-10-20 15:51:28.096 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-10-20 15:51:28.264 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-10-20 15:56:02.754 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2023-10-20 15:56:02.758 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:56:02.758 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 15:56:02.759 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-20 15:56:02.760 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2023-10-20 15:56:02.761 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:56:02.762 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:56:02.770 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-20 15:56:02.774 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-10-20 15:56:02.821 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 15:56:02.821 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 15:56:02.896 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 15:56:02.897 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 15:56:02.897 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 15:56:02.952 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 15:56:02.953 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:56:02.953 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 15:56:02.953 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 15:56:02.961 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 15:56:02.961 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 139 ms
+2023-10-20 15:56:03.081 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-20 15:56:03.085 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:56:03.087 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-20 15:56:03.089 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.288 seconds (JVM running for 289.241)
+2023-10-20 15:56:03.091 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-20 15:56:03.091 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-20 15:56:03.091 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 15:56:04.496 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2023-10-20 15:56:04.498 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:56:04.498 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 15:56:04.499 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:56:04.500 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:56:04.554 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 15:56:04.555 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 15:56:04.616 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 15:56:04.616 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 15:56:04.617 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 15:56:04.655 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 15:56:04.656 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:56:04.656 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 15:56:04.656 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 15:56:04.664 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 15:56:04.664 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 108 ms
+2023-10-20 15:56:04.755 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-20 15:56:04.759 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:56:04.761 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-20 15:56:04.763 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.224 seconds (JVM running for 290.914)
+2023-10-20 15:56:04.763 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-20 15:56:04.764 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-20 15:56:04.764 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 15:56:23.453 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-20 15:56:23.456 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:56:23.457 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 15:56:23.458 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:56:23.459 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:56:23.523 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 15:56:23.524 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 15:56:23.592 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 15:56:23.592 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 15:56:23.593 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 15:56:23.633 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 15:56:23.634 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:56:23.634 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 15:56:23.634 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 15:56:23.642 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 15:56:23.642 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 117 ms
+2023-10-20 15:56:23.677 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wjy.springtest.service.EbookService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup="", name="", description="", authenticationType=CONTAINER, type=java.lang.Object.class, mappedName="")}
+2023-10-20 15:56:23.678 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 15:56:23.680 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-20 15:56:23.692 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wjy.springtest.service.EbookService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wjy.springtest.service.EbookService' in your configuration.
+
+2023-10-20 15:56:25.155 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 15:56:25.156 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 15:56:25.216 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 15:56:25.217 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 15:56:25.217 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 15:56:25.252 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 15:56:25.252 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:56:25.252 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 15:56:25.252 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 15:56:25.259 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 15:56:25.259 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 102 ms
+2023-10-20 15:56:25.342 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-20 15:56:25.345 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:56:25.350 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-20 15:56:25.351 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.215 seconds (JVM running for 311.503)
+2023-10-20 15:56:25.352 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-20 15:56:25.352 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-20 15:56:25.352 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 15:57:50.846 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-20 15:57:50.848 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:57:50.848 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 15:57:50.849 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:57:50.850 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:57:50.904 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 15:57:50.904 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 15:57:50.965 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 15:57:50.965 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 15:57:50.966 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 15:57:51.002 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 15:57:51.003 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:57:51.003 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 15:57:51.003 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 15:57:51.010 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 15:57:51.010 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 105 ms
+2023-10-20 15:57:51.103 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-20 15:57:51.106 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:57:51.108 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-20 15:57:51.110 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.221 seconds (JVM running for 397.261)
+2023-10-20 15:57:51.110 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-20 15:57:51.111 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-20 15:57:51.111 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 15:57:52.539 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-10-20 15:57:52.541 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:57:52.541 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 15:57:52.542 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:57:52.543 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:57:52.592 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 15:57:52.592 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 15:57:52.648 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 15:57:52.648 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 15:57:52.649 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 15:57:52.686 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 15:57:52.686 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:57:52.686 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 15:57:52.686 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 15:57:52.696 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 15:57:52.696 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 103 ms
+2023-10-20 15:57:52.784 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-20 15:57:52.788 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-20 15:57:52.792 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-20 15:57:52.793 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.215 seconds (JVM running for 398.944)
+2023-10-20 15:57:52.794 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-20 15:57:52.795 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-20 15:57:52.795 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 15:58:00.084 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-20 15:58:00.084 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-20 15:58:00.084 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2023-10-20 15:58:00.102 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-2 - Starting...
+2023-10-20 15:58:00.117 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-2 - Start completed.
+2023-10-20 16:00:37.400 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-10-20 16:00:37.402 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:00:37.402 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 16:00:37.402 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-20 16:00:37.403 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [ROOT] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2023-10-20 16:00:37.403 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:00:37.404 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:00:37.407 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2023-10-20 16:00:37.409 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2023-10-20 16:00:37.461 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 16:00:37.462 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:00:37.524 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 16:00:37.524 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 16:00:37.525 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 16:00:37.573 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 16:00:37.573 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:00:37.573 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 16:00:37.573 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 16:00:37.581 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 16:00:37.581 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 118 ms
+2023-10-20 16:00:37.698 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-20 16:00:37.702 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:00:37.704 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-20 16:00:37.705 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.261 seconds (JVM running for 563.857)
+2023-10-20 16:00:37.706 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-20 16:00:37.706 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-20 16:00:37.706 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 16:00:58.414 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-20 16:00:58.416 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:00:58.416 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 16:00:58.417 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:00:58.418 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:00:58.490 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 16:00:58.490 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:00:58.554 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 16:00:58.554 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 16:00:58.554 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 16:00:58.590 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 16:00:58.591 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:00:58.591 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 16:00:58.591 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 16:00:58.598 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 16:00:58.598 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 107 ms
+2023-10-20 16:00:58.689 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-20 16:00:58.693 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:00:58.695 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-20 16:00:58.697 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.222 seconds (JVM running for 584.848)
+2023-10-20 16:00:58.697 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-20 16:00:58.698 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-20 16:00:58.698 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 16:01:54.967 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-20 16:01:54.969 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:01:54.969 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 16:01:54.970 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:01:54.970 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:01:55.037 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 16:01:55.038 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:01:55.093 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 16:01:55.093 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 16:01:55.094 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 16:01:55.128 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 16:01:55.129 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:01:55.129 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 16:01:55.129 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 16:01:55.136 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 16:01:55.136 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 97 ms
+2023-10-20 16:01:55.166 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [D:\New_github\studytest\target\classes\com\wjy\springtest\controller\EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.wjy.springtest.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@30708206]
+2023-10-20 16:01:55.166 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 16:01:55.168 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-20 16:01:55.173 ERROR org.springframework.boot.SpringApplication        :821  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [D:\New_github\studytest\target\classes\com\wjy\springtest\controller\EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.wjy.springtest.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@30708206]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at com.wjy.springtest.config.SpringtestApplication.main(SpringtestApplication.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.wjy.springtest.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@30708206]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:735)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:667)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	... 16 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/wjy/springtest/service/EbookService
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3473)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2542)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:730)
+	... 22 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.wjy.springtest.service.EbookService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 26 common frames omitted
+2023-10-20 16:01:56.608 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 16:01:56.608 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:01:56.662 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 16:01:56.662 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 16:01:56.663 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 16:01:56.691 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 16:01:56.691 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:01:56.691 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 16:01:56.691 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 16:01:56.697 INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 16:01:56.697 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 88 ms
+2023-10-20 16:01:56.718 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [D:\New_github\studytest\target\classes\com\wjy\springtest\controller\EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.wjy.springtest.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1c1b4a2d]
+2023-10-20 16:01:56.719 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 16:01:56.721 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-20 16:01:56.722 ERROR org.springframework.boot.SpringApplication        :821  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [D:\New_github\studytest\target\classes\com\wjy\springtest\controller\EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.wjy.springtest.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1c1b4a2d]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at com.wjy.springtest.config.SpringtestApplication.main(SpringtestApplication.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.wjy.springtest.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1c1b4a2d]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:735)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:667)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	... 16 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/wjy/springtest/service/EbookService
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3473)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2542)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:730)
+	... 22 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.wjy.springtest.service.EbookService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 26 common frames omitted
+2023-10-20 16:01:58.158 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 16:01:58.158 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:01:58.225 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 16:01:58.225 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 16:01:58.226 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 16:01:58.260 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 16:01:58.260 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:01:58.261 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 16:01:58.261 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 16:01:58.269 INFO  o.a.c.c.ContainerBase.[Tomcat-3].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 16:01:58.269 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 109 ms
+2023-10-20 16:01:58.294 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [D:\New_github\studytest\target\classes\com\wjy\springtest\controller\EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.wjy.springtest.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@18a35f3]
+2023-10-20 16:01:58.294 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 16:01:58.296 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-20 16:01:58.297 ERROR org.springframework.boot.SpringApplication        :821  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [D:\New_github\studytest\target\classes\com\wjy\springtest\controller\EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.wjy.springtest.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@18a35f3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at com.wjy.springtest.config.SpringtestApplication.main(SpringtestApplication.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.wjy.springtest.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@18a35f3]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:735)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:667)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	... 16 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/wjy/springtest/service/EbookService
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3473)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2542)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:730)
+	... 22 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.wjy.springtest.service.EbookService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 26 common frames omitted
+2023-10-20 16:02:01.558 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 16:02:01.558 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:02:01.642 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 16:02:01.643 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 16:02:01.643 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 16:02:01.686 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 16:02:01.686 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:02:01.687 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 16:02:01.687 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 16:02:01.697 INFO  o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 16:02:01.697 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 137 ms
+2023-10-20 16:02:01.729 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [D:\New_github\studytest\target\classes\com\wjy\springtest\controller\EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.wjy.springtest.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@640ba37c]
+2023-10-20 16:02:01.729 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 16:02:01.731 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-20 16:02:01.733 ERROR org.springframework.boot.SpringApplication        :821  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [D:\New_github\studytest\target\classes\com\wjy\springtest\controller\EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.wjy.springtest.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@640ba37c]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at com.wjy.springtest.config.SpringtestApplication.main(SpringtestApplication.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.wjy.springtest.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@640ba37c]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:735)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:667)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	... 16 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/wjy/springtest/service/EbookService
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3473)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2542)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:730)
+	... 22 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.wjy.springtest.service.EbookService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 26 common frames omitted
+2023-10-20 16:02:11.666 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 16:02:11.666 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:02:11.713 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 16:02:11.713 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 16:02:11.714 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 16:02:11.742 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 16:02:11.742 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:02:11.742 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 16:02:11.743 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 16:02:11.750 INFO  o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 16:02:11.750 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 83 ms
+2023-10-20 16:02:11.818 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-20 16:02:11.821 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:02:11.823 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-20 16:02:11.825 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.171 seconds (JVM running for 657.976)
+2023-10-20 16:02:11.826 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-20 16:02:11.826 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-20 16:02:11.826 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 16:02:16.665 INFO  o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-20 16:02:16.665 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-20 16:02:16.665 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2023-10-20 16:02:16.673 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-3 - Starting...
+2023-10-20 16:02:16.688 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-3 - Start completed.
+2023-10-20 16:03:40.503 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-10-20 16:03:40.504 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:03:40.506 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 16:03:40.506 INFO  o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/]  :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-20 16:03:40.507 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [ROOT] appears to have started a thread named [HikariPool-3 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2023-10-20 16:03:40.507 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:03:40.508 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:03:40.509 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2023-10-20 16:03:40.511 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2023-10-20 16:03:40.577 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 16:03:40.577 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:03:40.634 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 16:03:40.634 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 16:03:40.635 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 16:03:40.671 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 16:03:40.672 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:03:40.672 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 16:03:40.672 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 16:03:40.679 INFO  o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 16:03:40.681 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 103 ms
+2023-10-20 16:03:40.774 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-20 16:03:40.778 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:03:40.780 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-20 16:03:40.782 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.216 seconds (JVM running for 746.933)
+2023-10-20 16:03:40.783 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-20 16:03:40.783 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-20 16:03:40.783 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 16:04:24.792 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-20 16:04:24.796 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:24.796 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 16:04:24.796 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:24.797 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:24.866 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 16:04:24.867 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:04:24.931 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 16:04:24.931 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 16:04:24.932 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 16:04:24.968 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 16:04:24.968 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:24.968 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 16:04:24.968 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 16:04:24.975 INFO  o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 16:04:24.975 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 107 ms
+2023-10-20 16:04:25.055 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-20 16:04:25.059 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:25.061 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-20 16:04:25.063 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.209 seconds (JVM running for 791.214)
+2023-10-20 16:04:25.064 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-20 16:04:25.064 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-20 16:04:25.064 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 16:04:34.627 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-10-20 16:04:34.631 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:34.631 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 16:04:34.632 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:34.633 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:34.701 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 16:04:34.701 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:04:34.753 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 16:04:34.753 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 16:04:34.754 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 16:04:34.786 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 16:04:34.786 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:34.786 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 16:04:34.786 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 16:04:34.792 INFO  o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 16:04:34.792 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 90 ms
+2023-10-20 16:04:34.882 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-20 16:04:34.887 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:34.889 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-20 16:04:34.891 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.203 seconds (JVM running for 801.042)
+2023-10-20 16:04:34.891 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-20 16:04:34.892 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-20 16:04:34.892 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 16:04:56.586 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-20 16:04:56.588 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:56.588 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 16:04:56.590 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:56.590 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:56.648 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 16:04:56.648 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:04:56.709 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 16:04:56.709 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 16:04:56.710 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 16:04:56.745 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 16:04:56.745 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:56.745 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 16:04:56.745 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 16:04:56.752 INFO  o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 16:04:56.752 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 103 ms
+2023-10-20 16:04:56.831 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-20 16:04:56.835 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:56.837 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-20 16:04:56.838 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.207 seconds (JVM running for 822.99)
+2023-10-20 16:04:56.839 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-20 16:04:56.839 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-20 16:04:56.839 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 16:04:58.254 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-10-20 16:04:58.256 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:58.256 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 16:04:58.256 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:58.257 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:58.315 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 16:04:58.315 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:04:58.372 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 16:04:58.372 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 16:04:58.373 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 16:04:58.407 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 16:04:58.407 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:58.407 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 16:04:58.407 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 16:04:58.414 INFO  o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 16:04:58.414 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 98 ms
+2023-10-20 16:04:58.490 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-20 16:04:58.493 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:04:58.495 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-20 16:04:58.496 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.202 seconds (JVM running for 824.648)
+2023-10-20 16:04:58.497 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-20 16:04:58.497 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-20 16:04:58.497 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 16:05:23.229 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-20 16:05:23.231 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:05:23.231 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 16:05:23.232 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:05:23.233 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:05:23.284 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 16:05:23.285 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:05:23.344 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 16:05:23.344 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 16:05:23.345 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 16:05:23.382 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 16:05:23.382 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:05:23.382 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 16:05:23.383 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 16:05:23.391 INFO  o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 16:05:23.391 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 105 ms
+2023-10-20 16:05:23.423 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [D:\New_github\studytest\target\classes\com\wjy\springtest\controller\EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.wjy.springtest.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@e71a370]
+2023-10-20 16:05:23.423 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 16:05:23.425 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-20 16:05:23.427 ERROR org.springframework.boot.SpringApplication        :821  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [D:\New_github\studytest\target\classes\com\wjy\springtest\controller\EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.wjy.springtest.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@e71a370]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at com.wjy.springtest.config.SpringtestApplication.main(SpringtestApplication.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.wjy.springtest.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@e71a370]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:735)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:667)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	... 16 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/wjy/springtest/service/EbookService
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3473)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2542)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:730)
+	... 22 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.wjy.springtest.service.EbookService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 26 common frames omitted
+2023-10-20 16:09:56.930 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 16:09:56.930 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:09:56.985 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 16:09:56.985 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 16:09:56.986 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 16:09:57.016 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 16:09:57.017 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:09:57.017 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 16:09:57.017 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 16:09:57.026 INFO  o.a.c.c.ContainerBase.[Tomcat-6].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 16:09:57.026 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 95 ms
+2023-10-20 16:09:57.106 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-20 16:09:57.110 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:09:57.112 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-20 16:09:57.113 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.196 seconds (JVM running for 1123.265)
+2023-10-20 16:09:57.114 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-20 16:09:57.114 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-20 16:09:57.114 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 16:10:10.740 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-10-20 16:10:10.742 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:10:10.742 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 16:10:10.743 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:10:10.744 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:10:10.798 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 16:10:10.798 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:10:10.853 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 16:10:10.853 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 16:10:10.854 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 16:10:10.894 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 16:10:10.895 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:10:10.895 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 16:10:10.895 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 16:10:10.904 INFO  o.a.c.c.ContainerBase.[Tomcat-6].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 16:10:10.904 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 105 ms
+2023-10-20 16:10:10.986 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-20 16:10:10.990 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:10:10.992 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-20 16:10:10.993 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.213 seconds (JVM running for 1137.145)
+2023-10-20 16:10:10.994 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-20 16:10:10.994 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-20 16:10:10.994 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 16:10:14.418 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-20 16:10:14.420 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:10:14.420 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 16:10:14.421 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:10:14.422 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:10:14.467 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 16:10:14.467 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:10:14.521 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 16:10:14.521 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 16:10:14.522 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 16:10:14.557 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 16:10:14.557 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:10:14.557 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 16:10:14.557 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 16:10:14.564 INFO  o.a.c.c.ContainerBase.[Tomcat-6].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 16:10:14.564 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 96 ms
+2023-10-20 16:10:14.635 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-20 16:10:14.639 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:10:14.641 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-20 16:10:14.642 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.187 seconds (JVM running for 1140.793)
+2023-10-20 16:10:14.642 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-20 16:10:14.642 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-20 16:10:14.642 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 16:10:27.272 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2023-10-20 16:10:27.275 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:10:27.275 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-20 16:10:27.275 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:10:27.276 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:10:27.324 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 8900 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-20 16:10:27.324 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:10:27.377 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-20 16:10:27.377 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-20 16:10:27.378 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-20 16:10:27.409 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-20 16:10:27.410 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:10:27.410 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-20 16:10:27.410 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-20 16:10:27.416 INFO  o.a.c.c.ContainerBase.[Tomcat-6].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 16:10:27.416 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 91 ms
+2023-10-20 16:10:27.492 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-20 16:10:27.496 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-20 16:10:27.498 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-20 16:10:27.500 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.188 seconds (JVM running for 1153.651)
+2023-10-20 16:10:27.500 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-20 16:10:27.500 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-20 16:10:27.500 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-20 16:10:34.341 INFO  o.a.c.c.ContainerBase.[Tomcat-6].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-20 16:10:34.341 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-20 16:10:34.342 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-10-20 16:10:34.351 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-4 - Starting...
+2023-10-20 16:10:34.374 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-4 - Start completed.
