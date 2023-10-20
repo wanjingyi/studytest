@@ -6,3 +6,7 @@ Accept: application/json
 GET http://localhost:8081/test/list
 
 ###
+GET http://localhost:8081/demo/list1
+Accept: application/json
+
+###

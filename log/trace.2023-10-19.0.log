@@ -1,0 +1,365 @@
+2023-10-19 16:13:50.297 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.2.5.Final
+2023-10-19 16:13:50.311 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 14408 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-19 16:13:50.311 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-19 16:13:50.338 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-19 16:13:50.339 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-19 16:13:50.656 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 16:13:50.657 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 16:13:50.667 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-10-19 16:13:51.020 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-19 16:13:51.025 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:13:51.026 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-19 16:13:51.026 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-19 16:13:51.297 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-19 16:13:51.298 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 958 ms
+2023-10-19 16:13:51.801 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-19 16:13:51.810 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:13:51.821 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-19 16:13:51.827 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 1.754 seconds (JVM running for 2.372)
+2023-10-19 16:13:51.829 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-19 16:13:51.830 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-19 16:31:38.545 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-10-19 16:31:38.550 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:31:38.550 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-19 16:31:38.553 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:31:38.555 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:31:38.632 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 14408 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-19 16:31:38.632 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-19 16:31:38.701 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 16:31:38.701 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 16:31:38.702 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-19 16:31:38.759 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-19 16:31:38.760 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:31:38.760 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-19 16:31:38.760 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-19 16:31:38.768 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-19 16:31:38.768 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 135 ms
+2023-10-19 16:31:38.876 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-19 16:31:38.881 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:31:38.882 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-19 16:31:38.884 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.275 seconds (JVM running for 1069.428)
+2023-10-19 16:31:38.885 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-19 16:31:38.886 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-19 16:31:38.886 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-19 16:34:03.241 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-19 16:34:03.244 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:34:03.244 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-19 16:34:03.245 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:34:03.246 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:34:03.290 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 14408 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-19 16:34:03.290 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-19 16:34:03.354 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 16:34:03.354 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 16:34:03.355 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-19 16:34:03.390 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-19 16:34:03.391 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:34:03.391 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-19 16:34:03.391 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-19 16:34:03.398 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-19 16:34:03.398 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 107 ms
+2023-10-19 16:34:03.467 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-19 16:34:03.470 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:34:03.473 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-19 16:34:03.474 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.201 seconds (JVM running for 1214.018)
+2023-10-19 16:34:03.475 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-19 16:34:03.475 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-19 16:34:03.476 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-19 16:34:09.979 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-19 16:34:09.981 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:34:09.981 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-19 16:34:09.982 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:34:09.983 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:34:10.028 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 14408 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-19 16:34:10.028 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-19 16:34:10.077 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 16:34:10.078 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 16:34:10.078 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-19 16:34:10.109 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-19 16:34:10.109 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:34:10.109 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-19 16:34:10.109 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-19 16:34:10.116 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-19 16:34:10.116 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 87 ms
+2023-10-19 16:34:10.181 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-19 16:34:10.184 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:34:10.186 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-19 16:34:10.187 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.173 seconds (JVM running for 1220.732)
+2023-10-19 16:34:10.188 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-19 16:34:10.188 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-19 16:34:10.189 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-19 16:34:54.256 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-19 16:34:54.259 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:34:54.259 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-19 16:34:54.260 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:34:54.261 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:34:54.303 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 14408 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-19 16:34:54.303 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-19 16:34:54.351 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 16:34:54.352 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 16:34:54.352 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-19 16:34:54.385 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-19 16:34:54.385 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:34:54.386 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-19 16:34:54.386 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-19 16:34:54.392 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-19 16:34:54.392 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 88 ms
+2023-10-19 16:34:54.451 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-19 16:34:54.455 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:34:54.458 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-19 16:34:54.459 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.169 seconds (JVM running for 1265.003)
+2023-10-19 16:34:54.460 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-19 16:34:54.460 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-19 16:34:54.461 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-19 16:42:33.132 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-19 16:42:33.136 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:42:33.136 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-19 16:42:33.137 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:42:33.138 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:42:33.182 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 14408 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-19 16:42:33.183 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-19 16:42:33.231 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 16:42:33.231 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 16:42:33.232 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-19 16:42:33.263 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-19 16:42:33.263 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:42:33.263 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-19 16:42:33.263 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-19 16:42:33.269 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-19 16:42:33.270 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 87 ms
+2023-10-19 16:42:33.333 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-19 16:42:33.336 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:42:33.338 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-19 16:42:33.339 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.169 seconds (JVM running for 1723.883)
+2023-10-19 16:42:33.340 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-19 16:42:33.340 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-19 16:42:33.340 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-19 16:46:20.058 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2023-10-19 16:46:20.061 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:46:20.061 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-19 16:46:20.062 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:46:20.064 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:46:20.109 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 14408 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-19 16:46:20.109 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-19 16:46:20.160 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 16:46:20.160 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 16:46:20.161 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-19 16:46:20.197 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-19 16:46:20.197 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:46:20.197 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-19 16:46:20.197 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-19 16:46:20.206 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-19 16:46:20.206 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 96 ms
+2023-10-19 16:46:20.275 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-19 16:46:20.279 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:46:20.281 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-19 16:46:20.283 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.187 seconds (JVM running for 1950.827)
+2023-10-19 16:46:20.283 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-19 16:46:20.284 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-19 16:46:20.284 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-19 16:48:34.514 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2023-10-19 16:48:34.517 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:48:34.517 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-19 16:48:34.518 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:48:34.519 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:48:34.563 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 14408 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-19 16:48:34.563 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-19 16:48:34.613 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 16:48:34.613 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 16:48:34.613 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-19 16:48:34.645 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-19 16:48:34.646 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:48:34.646 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-19 16:48:34.646 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-19 16:48:34.655 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-19 16:48:34.655 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 91 ms
+2023-10-19 16:48:34.720 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-19 16:48:34.723 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:48:34.726 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-19 16:48:34.727 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.177 seconds (JVM running for 2085.272)
+2023-10-19 16:48:34.728 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-19 16:48:34.728 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-19 16:48:34.729 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-19 16:49:23.808 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-19 16:49:23.811 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:49:23.811 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-19 16:49:23.812 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:49:23.813 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:49:23.856 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 14408 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-19 16:49:23.856 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-19 16:49:23.905 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 16:49:23.905 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 16:49:23.906 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-19 16:49:23.938 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-19 16:49:23.939 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:49:23.940 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-19 16:49:23.940 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-19 16:49:23.947 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-19 16:49:23.947 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 90 ms
+2023-10-19 16:49:24.018 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-19 16:49:24.022 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:49:24.024 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-19 16:49:24.025 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.182 seconds (JVM running for 2134.57)
+2023-10-19 16:49:24.026 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-19 16:49:24.026 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-19 16:49:24.026 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-19 16:49:57.282 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2023-10-19 16:49:57.284 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:49:57.284 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-19 16:49:57.285 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:49:57.285 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:49:57.329 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 14408 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-19 16:49:57.330 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-19 16:49:57.384 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 16:49:57.385 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 16:49:57.385 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-19 16:49:57.419 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-19 16:49:57.419 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:49:57.420 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-19 16:49:57.420 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-19 16:49:57.427 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-19 16:49:57.427 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 96 ms
+2023-10-19 16:49:57.491 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-19 16:49:57.494 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:49:57.498 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-19 16:49:57.499 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.184 seconds (JVM running for 2168.043)
+2023-10-19 16:49:57.500 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-19 16:49:57.500 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-19 16:49:57.500 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-19 16:54:33.615 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-19 16:54:33.618 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:54:33.618 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-19 16:54:33.619 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:54:33.620 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:54:33.677 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 14408 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-19 16:54:33.677 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-19 16:54:33.762 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 16:54:33.762 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 16:54:33.762 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-19 16:54:33.790 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-19 16:54:33.790 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:54:33.791 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-19 16:54:33.791 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-19 16:54:33.804 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-19 16:54:33.805 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 126 ms
+2023-10-19 16:54:33.921 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-19 16:54:33.927 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:54:33.931 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-19 16:54:33.934 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.276 seconds (JVM running for 2444.478)
+2023-10-19 16:54:33.935 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-19 16:54:33.935 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-19 16:54:33.935 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-19 16:55:16.911 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-19 16:55:16.916 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:55:16.917 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-19 16:55:16.918 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:55:16.920 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:55:16.982 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 14408 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-19 16:55:16.983 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-19 16:55:17.028 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 16:55:17.028 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 16:55:17.029 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-19 16:55:17.058 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-19 16:55:17.059 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:55:17.059 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-19 16:55:17.059 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-19 16:55:17.066 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-19 16:55:17.066 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 82 ms
+2023-10-19 16:55:17.126 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-19 16:55:17.130 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:55:17.133 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-19 16:55:17.134 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.163 seconds (JVM running for 2487.678)
+2023-10-19 16:55:17.135 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-19 16:55:17.135 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-19 16:55:17.135 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-19 16:55:44.982 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-19 16:55:44.988 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:55:44.988 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-19 16:55:44.990 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:55:44.992 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:55:45.056 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 14408 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-19 16:55:45.056 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-19 16:55:45.132 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 16:55:45.133 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 16:55:45.133 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-19 16:55:45.188 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-19 16:55:45.189 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:55:45.189 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-19 16:55:45.189 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-19 16:55:45.200 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-19 16:55:45.200 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 142 ms
+2023-10-19 16:55:45.307 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-19 16:55:45.313 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:55:45.316 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-19 16:55:45.318 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.282 seconds (JVM running for 2515.863)
+2023-10-19 16:55:45.319 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-19 16:55:45.319 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-19 16:55:45.319 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-19 16:56:14.107 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-19 16:56:14.109 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:56:14.109 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-19 16:56:14.110 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:56:14.111 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:56:14.154 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 14408 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-19 16:56:14.155 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-19 16:56:14.208 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 16:56:14.208 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 16:56:14.208 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-19 16:56:14.244 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-19 16:56:14.244 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:56:14.244 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-19 16:56:14.244 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-19 16:56:14.252 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-19 16:56:14.252 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 96 ms
+2023-10-19 16:56:14.315 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-19 16:56:14.318 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:56:14.320 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-19 16:56:14.322 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.18 seconds (JVM running for 2544.866)
+2023-10-19 16:56:14.323 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-19 16:56:14.323 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-19 16:56:14.323 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-19 16:58:29.666 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-19 16:58:29.668 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:58:29.668 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-19 16:58:29.669 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:58:29.670 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:58:29.719 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 14408 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-19 16:58:29.720 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-19 16:58:29.769 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 16:58:29.776 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 16:58:29.776 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-19 16:58:29.810 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-19 16:58:29.810 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:58:29.810 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-19 16:58:29.810 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-19 16:58:29.819 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-19 16:58:29.819 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 98 ms
+2023-10-19 16:58:29.886 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-19 16:58:29.889 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:58:29.892 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-19 16:58:29.894 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.187 seconds (JVM running for 2680.437)
+2023-10-19 16:58:29.894 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-19 16:58:29.895 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-19 16:58:29.895 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2023-10-19 16:59:25.169 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-19 16:59:25.173 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:59:25.173 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-19 16:59:25.174 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:59:25.176 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:59:25.216 INFO  com.wjy.springtest.config.SpringtestApplication   :55   [32m                  [0;39m Starting SpringtestApplication using Java 21.0.1 on wangjingyi with PID 14408 (D:\New_github\studytest\target\classes started by wangxi in D:\New_github\studytest)
+2023-10-19 16:59:25.216 INFO  com.wjy.springtest.config.SpringtestApplication   :631  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-19 16:59:25.262 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 16:59:25.262 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 16:59:25.262 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-10-19 16:59:25.289 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-19 16:59:25.289 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:59:25.289 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-19 16:59:25.289 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-19 16:59:25.299 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-19 16:59:25.299 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 82 ms
+2023-10-19 16:59:25.362 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-19 16:59:25.365 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-19 16:59:25.368 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2023-10-19 16:59:25.370 INFO  com.wjy.springtest.config.SpringtestApplication   :61   [32m                  [0;39m Started SpringtestApplication in 0.165 seconds (JVM running for 2735.914)
+2023-10-19 16:59:25.370 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-19 16:59:25.370 INFO  com.wjy.springtest.config.SpringtestApplication   :22   [32m                  [0;39m 启动成功！！
+2023-10-19 16:59:25.370 INFO  com.wjy.springtest.config.SpringtestApplication   :23   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
